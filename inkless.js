@@ -37,7 +37,7 @@ function transformJsonToSql(json) {
     (streetNumber, street, city, state, zip, sqft, isRental, cost, dateAvailable)
     VALUES ("1234", "Inkless", "Dallas", "TX", "76543", ${json.sqft}, ${json.isRental ? 1 : 0}, ${json.cost}, 2024-02-09 00:00:00.000);`;
 }
-
+//testing github
 
 function getOutput(i) {console.log(i)
 };
